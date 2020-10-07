@@ -111,3 +111,9 @@ fi
 
 # dotfiles alias
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
+
+# complete aliases
+setopt complete_aliases
+
+# nvim
+alias vim='nvim'
