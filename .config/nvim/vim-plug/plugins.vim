@@ -22,8 +22,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Themes
     Plug 'morhetz/gruvbox'
-    Plug 'shinchu/lightline-gruvbox.vim'
-    
     Plug 'itchyny/lightline.vim'
+    Plug 'shinchu/lightline-gruvbox.vim'
+    Plug 'dracula/vim', { 'as': 'dracula' }
+    Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
